@@ -1,0 +1,4 @@
+# Sinatra Heroku Boilerplate #
+
+## Installation ##
+
