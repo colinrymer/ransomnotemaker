@@ -1,6 +1,7 @@
 require 'sinatra'
-require 'lib/database'
+require './lib/database'
 
+# Routes
 get '/' do
   "Hello, World"
 end
