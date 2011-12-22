@@ -5,6 +5,7 @@
 Installation of the boilerplate requires Ruby and the Bundler gem.
 
 To install:
+
   1. Clone the repository.
   2. Install the necessary gems: `bundle install`
 
@@ -29,6 +30,7 @@ If the Heroku gem hasn't been installed, install it: `gem install heroku`.
 Make sure you are in the root directory of the application and that there is an initialized git repository (if you cloned the repo, this will already be the case).
 
 Then:
+
   1. `heroku create --stack cedar`
   2. `git add .`
   3. `git commit -m 'preparing for heroku deployment'`
