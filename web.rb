@@ -3,5 +3,5 @@ require './lib/database'
 
 # Routes
 get '/' do
-  "Hello, World"
+  erb :home
 end
