@@ -6,7 +6,8 @@ get '/' do
   erb :home
 end
 
-post '/new' do
+post '/note' do
 	#TODO create new
+	@message = params[:message]
 	erb :note
 end
