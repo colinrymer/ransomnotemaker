@@ -5,3 +5,8 @@ require './lib/database'
 get '/' do
   erb :home
 end
+
+post '/new' do
+	#TODO create new
+	erb :note
+end
