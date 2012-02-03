@@ -16,7 +16,3 @@ not_found do
   erb :not_found
 end
  
-post '/new' do
-  #TODO create new
-  erb :note
-end
