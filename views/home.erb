@@ -1,6 +1,14 @@
 <div class="container">
 
-  <div class="three columns sidebar">
+  <div class="sixteen columns" style="margin-top: 30px;">
+    <h1>Ransom Note Maker</h1>
+    <div class="subheader">
+      subheader
+    </div>
+    <hr />
+  </div>
+
+  <div class="one-third column">
     <nav>
       <h3>Title</h3>
       <ul>
@@ -17,10 +25,9 @@
     </nav>
   </div>
 
-  <div id="header" class="twelve columns offset-by-one content">
+  <div class="one-third column">
+     <form action="note" method="post">
     
-    <form action="note" method="post">
-      
       <!-- Label and textarea -->
       <label for="message">Ransom Note</label>
       <textarea name="message"id="message"></textarea>
@@ -36,13 +43,13 @@
       <button type="submit">Create Your Note</button>
 
     </form>
+  </div>
 
-    <!-- Inside blockquote's wrap the content in a <p> then attribute with a <cite>-->
+  <div class="one-third column">
     <blockquote>
       <p>Give me $2^20 or the *pointer gets it!</p>
       <cite>Robbie, brazen thief</cite>
     </blockquote>
-
   </div>
 
 </div>
