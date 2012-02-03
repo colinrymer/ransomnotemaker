@@ -1,26 +1,48 @@
 <div class="container">
-  <form action="note" method="post">
+
+  <div class="three columns sidebar">
+    <nav>
+      <h3>Title</h3>
+      <ul>
+        <li>
+          <a href="#">Section Uno</a>
+        </li>
+        <li>
+          <a href="#">Section Dos</a>
+        </li>
+        <li>
+          <a href="#">Section Tres</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div id="header" class="twelve columns offset-by-one content">
     
-    <!-- Label and textarea -->
-    <label for="message">Ransom Note</label>
-    <textarea name="message"id="message"></textarea>
+    <form action="note" method="post">
+      
+      <!-- Label and textarea -->
+      <label for="message">Ransom Note</label>
+      <textarea name="message"id="message"></textarea>
 
-    <!-- Label and select list -->
-    <label for="font">Select Font</label>
-    <select id="font" name="font">
-      <option value="Font 1">Font 1</option>
-      <option value="Font 2">Font 2</option>
-      <option value="Font 3">Font 3</option>
-    </select>
+      <!-- Label and select list -->
+      <label for="font">Select Font</label>
+      <select id="font" name="font">
+        <option value="Font 1">Font 1</option>
+        <option value="Font 2">Font 2</option>
+        <option value="Font 3">Font 3</option>
+      </select>
 
-    <button type="submit">Create Your Note</button>
+      <button type="submit">Create Your Note</button>
 
-  </form>
+    </form>
 
-  <!-- Inside blockquote's wrap the content in a <p> then attribute with a <cite>-->
-  <blockquote>
-    <p>Give me $2^20 or the *pointer gets it!</p>
-    <cite>Robbie, brazen thief</cite>
-  </blockquote>
+    <!-- Inside blockquote's wrap the content in a <p> then attribute with a <cite>-->
+    <blockquote>
+      <p>Give me $2^20 or the *pointer gets it!</p>
+      <cite>Robbie, brazen thief</cite>
+    </blockquote>
+
+  </div>
 
 </div>
