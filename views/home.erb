@@ -1,5 +1,19 @@
-<form action="note" method="post" accept-charset="utf-8">
-	<label for="message">Message</label>
-	<input type="text" name="message" />
-	<input type="submit" name="submit" value="submit">
-</form>
+<div class="container">
+  <form action="note" method="post">
+    
+    <!-- Label and textarea -->
+    <label for="message">Ransom Note</label>
+    <textarea name="message"id="message"></textarea>
+
+    <!-- Label and select list -->
+    <label for="font">Select Font</label>
+    <select id="font" name="font">
+      <option value="Font 1">Font 1</option>
+      <option value="Font 2">Font 2</option>
+      <option value="Font 3">Font 3</option>
+    </select>
+
+    <button type="submit">Demand Your Ransom!</button>
+
+  </form>
+</div>

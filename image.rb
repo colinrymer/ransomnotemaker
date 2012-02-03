@@ -1,0 +1,2 @@
+require 'RMagick'
+include Magick
