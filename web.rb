@@ -9,6 +9,7 @@ end
 post '/note' do
   #TODO create note
   @message = params[:message]
+  @font = params[:font]
 	erb :note
 end
 

@@ -1,2 +1,50 @@
-<p>this is a newly created note: <%= "#{@message}" %></p>
-<a href="/" title="Home page">Home page</a>
+<div class="container">
+
+  <div class="sixteen columns header" style="margin-top: 30px;">
+    <h1>Ransom Note Maker</h1>
+    <div class="subheader">
+        - now good for extortion too!
+    </div>
+    <hr />
+  </div>
+
+<div class="row" style="margin-left: 10px; margin-right: 10px;">
+
+  <div class="eleven columns alpha ransom_note">
+
+    <p>this is a newly created note: <%= "#{@message}" %></p>
+    <p>The font chosen is : <%= "#{@font}" %></p>
+
+  </div>
+
+  <div class="four columns omega">
+     <form action="mail" method="post">
+    
+      <!-- Label and text input -->
+      <label for="Recipient">To</label>
+      <input type="text" id="Recipient" />
+
+      <!-- Label and text input -->
+      <label for="Sender">From</label>
+      <input type="text" id="Sender" />
+
+      <!-- Label and text input -->
+      <label for="Message">Message</label>
+      <input type="text" id="Message" />
+
+      <button type="submit">Demand Your Ransom!</button>
+
+    </form>
+  </div>
+
+</div>
+
+  <div class="sixteen columns">
+    
+    <hr />
+    &copy; <%= Time.now.strftime("%Y") %> R&amp;R Web Design. All rights reserved.
+  
+  </div>
+
+
+</div>
