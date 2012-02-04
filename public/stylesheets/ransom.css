@@ -28,6 +28,10 @@
 	transform: scale(1.0) rotate(-45deg) translateX(-200px) translateY(200px);
 	transform-origin: 36% 36%;
 }
+sup {
+	vertical-align: super;
+	font-size: smaller;
+}
 /*=====================================================*/
 /*        remove underline on nav bar href links       */
 /*=====================================================*/
