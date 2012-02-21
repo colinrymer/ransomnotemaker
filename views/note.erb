@@ -1,3 +1,6 @@
+<!-- font-family: 'Special Elite', cursive;
+  -->
+
 <div class="container">
 
   <div class="sixteen columns header" style="margin-top: 30px;">
@@ -10,10 +13,9 @@
 
 <div class="row" style="margin-left: 10px; margin-right: 10px;">
 
-  <div class="eleven columns alpha ransom_note">
+  <div class="eleven columns alpha ransom_note" style='font-family: <%= "#{@font}" %>'>
 
-    <p>this is a newly created note: <%= "#{@message}" %></p>
-    <p>The font chosen is : <%= "#{@font}" %></p>
+    <p><%= "#{@message}" %></p>
 
   </div>
 
@@ -39,7 +41,7 @@
 
 </div>
 
-  <div class="sixteen columns">
+  <div class="sixteen columns foot">
     
     <hr />
     &copy; <%= Time.now.strftime("%Y") %> R&amp;R Web Design. All rights reserved.

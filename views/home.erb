@@ -1,8 +1,8 @@
 <div class="container">
 
-<div class="construction">
+<!--<div class="construction">
   <h1>Under Construction</h1>
-</div>
+</div>-->
 
   <div class="sixteen columns header" style="margin-top: 30px;">
     <h1>Ransom Note Maker</h1>
@@ -12,7 +12,7 @@
     <hr />
   </div>
 
-  <div class="one-third column">
+  <!--<div class="one-third column">
     <nav>
       <h3>Title</h3>
       <ul>
@@ -27,9 +27,9 @@
         </li>
       </ul>
     </nav>
-  </div>
+  </div>-->
 
-  <div class="one-third column">
+  <div class="eight columns">
      <form action="note" method="post">
     
       <!-- Label and textarea -->
@@ -47,17 +47,18 @@ The path of the righteous man is beset on all sides by the iniquities of the sel
       <!-- Label and select list -->
       <label for="font">Select Font</label>
       <select id="font" name="font">
-        <option value="Magazine">Magazine</option>
-        <option value="Typewriter">Typewriter</option>
-        <option value="Handwritten">Handwritten</option>
+        <option value="Monofett">Magazine</option>
+        <option value="Special Elite">Typewriter</option>
+        <option value="Permanent Marker">Handwritten</option>
       </select>
 
       <button type="submit">Create Your Note</button>
 
     </form>
+
   </div>
 
-  <div class="one-third column">
+  <div class="eight columns">
     <blockquote>
       <h3>A Recent Demand</h3>
       <p>Give me $2<sup>20</sup> or the *pointer gets it!</p>
@@ -65,7 +66,7 @@ The path of the righteous man is beset on all sides by the iniquities of the sel
     </blockquote>
   </div>
 
-  <div class="sixteen columns">
+  <div class="sixteen columns foot">
     <hr />
     &copy; <%= Time.now.strftime("%Y") %> R&amp;R Web Design. All rights reserved.
   </div>

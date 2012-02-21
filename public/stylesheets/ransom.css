@@ -1,3 +1,6 @@
+/*body {
+	background-image: url("/skeleton/images/washi.png");
+}*/
 .ransom_note {
 	padding: 20px;
 	border: solid #ddd;
@@ -27,6 +30,9 @@
 	-ms-transform-origin: 36% 36%;
 	transform: scale(1.0) rotate(-45deg) translateX(-200px) translateY(200px);
 	transform-origin: 36% 36%;
+}
+.foot {
+	margin-bottom: 30px;
 }
 sup {
 	vertical-align: super;
